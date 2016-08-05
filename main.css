@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation, .container h1, .clear, .container ul, table {
+    margin-bottom: 20px;
+}
+.navigation {
+    margin-top: 15px;
+}
+
+.navigation a {
+    margin-right: 10px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+}
+
+.my-name {
+    font-size: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container ul {
+    padding-left: 20px;
+}
+
+table td {
+    padding: 5px 10px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.about-page p {
+    margin-bottom: 10px;
+}
+
+.form-element {
+    padding: 10px 0;
+}
+
+.form-element input, .form-element textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+</head>
+<body>
+<link rel="stylesheet" href="main.css">
+
+<div class="container">
+    <nav class="navigation">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Обо мне</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <h1>Форма обратной связи</h1>
+
+    <p><strong>Свяжитесь со мной</strong></p>
+    <form action="contact.php" method="POST">
+        <div class="form-element">
+            <label for="name">Ваше имя:</label>
+            <div>
+                <input type="text" name="name" id="name" placeholder="Введите ваше имя" />
+            </div
+        </div>
+        <div class="form-element">
+            <label for="email">Ваш email:</label>
+            <div>
+                <input type="text" name="email" id="email" placeholder="Введите ваш email" />
+            </div>
+        </div>
+        <div class="form-element">
+            <label for="body">Ваше сообщение:</label>
+            <div>
+                <textarea name="body" id="body" placeholder="Введите ваше сообщение"></textarea>
+            </div>
+        </div>
+        <div class="form-element">
+            <input type="submit" value="Отправить сообщение">
+        </div>
+    </form>
+
+
+</div>
+</body>
+</html>
